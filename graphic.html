@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>PAOLORBT</title>
+
+</head>
+<body>
+  <main class="container">
+    <div id="left">
+      <div class="navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </div>
+                
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="graphic.html">graphics</a></li>
+          <li><a href="contact.html">contacts</a></li>
+        </ul>
+      </nav>
+       <P id="nome-logo">paolo rbt</P>
+      <div id="social">
+
+      </div>
+    </div>
+    <div class="container-graphic">
+
+      <!-- SEZIONE DI SINISTRA (Fissa) -->
+      <aside class="left-section">
+        <div class="media-card" id="img-sec-1">
+          <img src="pictures/Workshop_Stationery_Mockup_1.jpg" alt="Immagine Coordinata">
+        </div>
+        <div class="media-card" id="img-sec-2">
+          <img src="pictures/Alessia_003.jpeg" alt="Usability Test">
+        </div>
+        <div class="media-card" id="img-sec-3">
+          <img src="" alt="Natura e Fauna">
+        </div>
+      </aside>
+
+      <!-- SEZIONE DI DESTRA (Scorrevole) -->
+      <section id="destra">
+        <h1 class="quote">
+          “A desordem é apenas aparente.
+          <br>De fato, sinto um enorme fascínio por esse mundo de combinações e invenções em que as linhas, as cores, os espaços vivem por si mesmos.”<br>
+          <span class="autore">- Aloísio Magalhães -</span>
+        </h1>>
+        <div class="right-section">
+
+          <!-- Blocco 1: collegato a #img-sec-1 -->
+          <section class="content-block" data-target-img="img-sec-1">
+            <h2>TRADIZIONALE</h2>
+            <p>Brand identity e immagini coordinate, grafica promozionale ed editoriale, packaging ed eventi, allestimenti e illustrazioni, sono solo alcuni degli elaborati grafici appartenenti a questo settore del design.</p>
+            <p>Tutto parte da un'idea, una necessità e per trasformasi in qualcosa di concreto e tangibile: biglietti da visita, inviti, confezioni, cartelloni, volantini, cataloghi, e tanto altro.</p>
+          </section>
+
+          <!-- Blocco 2: collegato a #img-sec-2 -->
+          <section class="content-block" data-target-img="img-sec-2">
+            <h2>USER EXPERIENCE</h2>
+            <p>Don Norman, considerato il padre della User Experience (o più semplicemente UX), ha definito questa disciplina così: «È l'insieme di tutto. Aprire la confezione di un prodotto è un buon esempio: è l'esperienza complessiva che conta [...] e si basa più sul ricordo che sulla realtà».</p>
+            <p>Fare UX non significa semplicemente progettare un'applicazione, ma comprenderne il funzionamento nel suo insieme: analizzarne gli scopi d'uso, individuarne le criticità e costruire qualcosa che l'utente finale possa sfruttare appieno, senza difficoltà e con piacere.</p>
+            <p>È proprio per questo che i test con gli utenti rappresentano un passaggio fondamentale per dare vita a un prodotto davvero funzionale e soddisfacente..</p>
+          </section>
+
+          <!-- Blocco 3: collegato a #img-sec-3 -->
+          <section class="content-block" data-target-img="img-sec-3">
+            <h2>WEB</h2>
+            <p>Ecco l'ultima sezione di testo. La terza immagine a sinistra diventa attiva e completamente visibile non appena questo paragrafo raggiunge il punto di triggering impostato nel JavaScript.</p>
+          </section>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- JAVASCRIPT: Gestione scorrimento e attivazione immagini -->
+  <script src="scripts/graphic.js"></script>
+  <script src="scripts/menu.js"></script>
+</body>
+</html>
